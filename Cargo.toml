@@ -1,9 +1,13 @@
 [package]
 name = "gnulightning-sys"
 version = "2.3.0"
-links = "foo"
 build = "build.rs"
 edition = "2018"
+description = "Rust bindings for gnulightning jit compiler"
+license = " GPL-3.0-only"
+license-file = "LICENSE"
+homepage = "https://github.com/n8ta/gnulightning-sys"
+repository = "https://github.com/n8ta/gnulightning-sys"
 
 [dependencies]
 libc = "0.2"
