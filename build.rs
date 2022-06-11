@@ -1,6 +1,5 @@
 use std::process::Command;
 use std::env;
-use std::path::Path;
 
 fn main() {
 
@@ -13,5 +12,4 @@ fn main() {
 
     Command::new("make").args(&["install"])
         .spawn().unwrap();
-
 }
