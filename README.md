@@ -7,6 +7,10 @@ as a reference instead of the exports of this crate.
 Tested on macOS likely to work on most linux distros, windows who knows.
 
 # Usage
+cargo.toml
+```
+gnulightning-sys = "2.3.0"
+```
 
 # Warning / Next Steps
 It is very hard to write code with just the raw bindings. For this to be useful I or someone else will need to write a safe wrapper.  
