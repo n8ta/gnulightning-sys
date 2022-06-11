@@ -6,6 +6,8 @@ as a reference instead of the exports of this crate.
 
 Tested on macOS likely to work on most linux distros, windows who knows.
 
+# Usage
+
 # Warning / Next Steps
 It is very hard to write code with just the raw bindings. For this to be useful I or someone else will need to write a safe wrapper.  
 You will NOT be able to write idiomatic rust with this crate.
