@@ -9,7 +9,14 @@ fn main() {
 
     Command::new("make")
         .spawn().unwrap();
-
     Command::new("make").args(&["install"])
         .spawn().unwrap();
+
+    let cwd = env::current_dir().unwrap()
+        .join("lib")
+        .join(".libs");
+    let path = cwd.to_str().unwrap();
+    println!("cargo:rustc-link-search={}", path);
+    println!("cargo:rustc-link-lib={}","lightning.1");
+    println!("cargo:rerun-if-changed=build.rs");
 }
