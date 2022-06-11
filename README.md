@@ -9,3 +9,6 @@ Tested on macOS likely to work on most linux distros, windows who knows.
 # license
 This crate is licensed under the same license as gnu lighting itself. GPL v3. See ./LICENSE and ./include/lightning-2.1.3/COPYING
 for a copy of the license.
+
+# modification
+The only modification made to gnulightning was to #include <math.h> in inclue/lightning-2.3.1/check/lightning.c.
